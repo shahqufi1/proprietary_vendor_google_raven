@@ -3774,7 +3774,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/android.hardware.contexthub-service.generic"],
-			shared_libs: ["pixelatoms-cpp", "android.frameworks.stats-V2-ndk", "android.hardware.contexthub-V3-ndk", "libbase", "libbinder_ndk", "libcutils", "libjsoncpp", "liblog", "libpower", "libprotobuf-cpp-lite", "libusf", "libutils", "chre_atoms_log", "chre_metrics_reporter", "chremetrics-cpp", "server_configurable_flags", "vendor_chre_atoms_log", "vendor_chre_metrics-cpp", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["pixelatoms-cpp", "android.frameworks.stats-V2-ndk", "android.hardware.contexthub-V3-ndk", "libbase", "libbinder_ndk", "libcutils", "libjsoncpp", "liblog", "libpower", "libprotobuf-cpp-lite", "libusf", "libutils", "chre_atoms_log", "chremetrics-cpp", "server_configurable_flags", "vendor_chre_atoms_log", "vendor_chre_metrics-cpp", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
